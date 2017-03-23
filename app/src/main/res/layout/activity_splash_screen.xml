@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image"
+    tools:context="com.shobhunshah.newsapplication.SplashScreenActivity">
+
+    <TextView
+        android:id="@+id/splashTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="  News \n In \n FLASH"
+        android:gravity="center"
+        android:textColor="#311B92"
+        android:textSize="80sp"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
